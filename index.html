@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prova1-iFood</title>
+    <style>
+        body {
+            margin: 0%;
+            background-image: url(avaimg/fundo2.jpeg);
+            background-size: 100%;
+        }
+
+        #topo {
+            background-color: #f1f1f1;
+            height: 100px;
+        }
+
+        #logo {
+            padding-left: 50px;
+            width: 50px;
+            height: 50px;
+        }
+
+        h1,
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            margin: auto;
+            padding: 10px;
+        }
+
+        ul,
+        a {
+            margin-top: auto;
+            padding: 10px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        a:hover {
+            color: rgb(250, 56, 75);
+        }
+
+        #tabela,
+        #tr1,
+        #tb1 {
+            margin: auto;
+            padding: 10px;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+
+        #tabela2,
+        #tr2,
+        #tb2 {
+            margin: auto;
+            padding: 10px;
+            background-color: darkgray;
+            border: 2px solid white;
+            border-collapse: collapse;
+        }
+
+        .pedido {
+            width: 250px;
+            height: 150px;
+            text-align: center;
+            padding: 20px;
+            border-color: aliceblue;
+            border-radius: 10px;
+        }
+
+        #pedido1 {
+            margin: auto;
+            background-color: rgb(250, 56, 75);
+
+        }
+
+        #pedido2 {
+            margin: auto;
+            background-color: rgb(174, 248, 100);
+        }
+
+        #conteúdo {
+            text-align: center;
+            display: flex;
+            padding: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav id="topo">
+            <img id=logo src="avaimg/logo.svg" alt="">
+            <ul>
+                <a>Entregador</a>
+                <a>restaurant e mercado</a>
+                <a>Carreira</a>
+                <a>iFood Card</a>
+            </ul>
+        </nav>
+    </header>
+    <h1>Faça mercado no iFood</h1>
+    <p>Entregamos tudo o que precisar na porta da sua casa, de hortifrut a <br> itens de limpeza.</p>
+
+    <table id="tabela">
+        <tr id="tr1">
+            <td id="tb1">frios</td>
+            <td id="tb1">lactcínos</td>
+            <td id="tb1">feira</td>
+            <td id="tb1">bebidas</td>
+            <td id="tb1">doces</td>
+            <td id="tb1">massas frescas</td>
+        </tr>
+    </table>
+
+    <main>
+        <div id="conteúdo">
+
+            <div id="pedido1" class="pedido">
+                <h2 style="color: white;">Restaurante</h2>
+                <button>Pedir</button>
+            </div>
+
+            <div id="pedido2" class="pedido">
+                <h2 style="color: white;">Mercado</h2>
+                <button>Pedir</button>
+            </div>
+        </div>
+    </main>
+
+    <table id="tabela2">
+        <tr id="tr2">
+            <td id="tb2"><img src="avaimg/oba.png" alt="oba"></td>
+            <td id="tb2">Oba Hortifrut - Centro</td>
+            <td id="tb2">27-37 min</td>
+        </tr>
+
+        <tr id="tr2">
+            <td id="tb2"><img src="avaimg/savegnago.png" alt="savenhago"></td>
+            <td id="tb2">Savenhago - Campinas</td>
+            <td id="tb2">27-37 min</td>
+        </tr>
+
+        <tr id="tr2">
+            <td id="tb2"><img src="avaimg/mini.png" alt="mini"></td>
+            <td id="tb2">Extra mini - Anchieta</td>
+            <td id="tb2">30-40 min</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
